@@ -39,6 +39,9 @@ void setup() {
     Serial.print(".");
   }*/
   Serial.println("");
+  Serial.print("Connecting to ");
+  Serial.println(ssid);
+  Serial.println("WiFi connected");
   Serial.print("Connected to WiFi network with IP Address: ");
   Serial.println(WiFi.localIP());
  
