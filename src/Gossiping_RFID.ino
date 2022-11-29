@@ -19,7 +19,7 @@ String tag;
 const char* password = "andy90121";*/
 
 //URL路徑或IP位置
-String serverName = "http://192.168.137.1:3000/api/gossiping/1/";
+//String serverName = "http://192.168.0.108:3000/api/gossiping/103/tags/";
 
 // the following variables are unsigned longs because the time, measured in
 // milliseconds, will quickly become a bigger number than can be stored in an int.
@@ -67,7 +67,9 @@ void loop() {
     if(WiFi.status()== WL_CONNECTED){
       WiFiClient client;
       HTTPClient http;
-      if(tag == "163157131167")
+      //URL路徑或IP位置
+      String serverName = "http://192.168.0.108:3000/api/gossiping/103/tags/";
+      if(tag == "122233120128")
       {
         Serial.println("correct");
         serverName = serverName + tag ;
@@ -81,6 +83,7 @@ void loop() {
       String serverPath = serverName ;
       serverName=serverName+ "/";
       Serial.println(serverName);
+      
       
       // Your Domain name with URL path or IP address with path
       http.begin(client, serverPath.c_str());
