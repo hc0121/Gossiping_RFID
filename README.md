@@ -4,3 +4,5 @@
 2.下載[ESP8266_Framework](https://github.com/hc0121/ESP8266_Framework)，並將檔案解壓縮後放置C:\Users\ (username) \ .platformio\packages\framework-arduinoespressif8266
 
 3.請使用它！
+
+![](https://github.com/hc0121/Gossiping_RFID/blob/8a8755535e39ba0cdd8990f171c96f446389813f/%E6%B5%B7%E5%A0%B1.png)
