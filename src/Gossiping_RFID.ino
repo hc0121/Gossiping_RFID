@@ -56,8 +56,8 @@ void loop() {
       WiFiClient client;
       HTTPClient http;
       //URL路徑或IP位置
-      String serverName = "http://192.168.0.111:3000/api/gossiping/102/tags/";
-      if(tag == "1086722722")
+      String serverName = "http://192.168.0.111:3000/api/gossiping/103/tags/";
+      if(tag == "677094167")
       {
         Serial.println("correct");
         serverName = serverName + tag ;
