@@ -57,6 +57,8 @@ void loop() {
       HTTPClient http;
       //URL路徑或IP位置
       String serverName = "http://192.168.0.111:3000/api/gossiping/103/tags/";
+      //102,163157131167
+      //103,677094167
       if(tag == "677094167")
       {
         Serial.println("correct");
